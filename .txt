@@ -1,0 +1,24 @@
+#include<studio.h>
+Int main()
+{
+Int i,t,sum=0,pro=1,n;
+Printf("enter array size");
+Scanf("%d",&n);
+Printf("enter array elements);
+for(i=0;i<n;i++)
+{
+Scanf ("%d",&a[i]);
+}
+for(i=0;i<n;i++)
+{
+t=a[i];
+if(t!=0)
+{
+Pro=pro*t;
+t--;
+}
+Sum=sum+pro;
+}
+printf("%d",sum);
+return 0;
+}
